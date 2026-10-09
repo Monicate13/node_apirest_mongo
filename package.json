@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-node-crud",
+  "version": "0.0.1",
+  "description": "Haremos un CRUD con nodeJS y mongoDB",
+  "license": "ISC",
+  "author": "Bruno Cusi",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.4"
+  },
+  "allowScripts": {
+    "nodemon@3.1.14": true
+  }
+}
